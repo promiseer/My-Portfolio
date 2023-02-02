@@ -72,7 +72,7 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Infvyr - a passionate frontend developer. Lorem ipsum dolor sit
+        Hi, I'm Parmeshwar - a passionate backend developer. Lorem ipsum dolor sit
         amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est
         harum impedit laborum, nobis odit porro quibusdam saepe suscipit!
         Accusamus adipisci aliquam amet consectetur dolore doloremque eaque
