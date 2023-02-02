@@ -19,17 +19,17 @@ const Header = (data) => {
 
       <Div2>
         <li>
-          <Link href={route === "/all-projects" ? "/about" : "about"}>
+          <Link href={route === "/all-projects" ? "/#about" : "#about"}>
             <NavLink>About</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="projects">
+          <Link href="#projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
         <li>
-          <Link href={route === "/all-projects" ? "/tech" : "tech"}>
+          <Link href={route === "/all-projects" ? "/#tech" : "#tech"}>
             <NavLink>Technologies</NavLink>
           </Link>
         </li>
