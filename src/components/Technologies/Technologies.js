@@ -11,9 +11,6 @@ import {
   DiPostgresql,
   DiNodejsSmall,
   DiGoogleCloudPlatform,
-  DiRuby,
-  DiVisualstudio,
-  DiJira,
   DiDigitalOcean,
 } from "react-icons/di";
 import {
@@ -29,6 +26,7 @@ import {
   ListParagraph,
   ListTitle,
 } from "./TechnologiesStyles";
+import {ExternalLinks} from "../Cards/CardStyles";
 
 const Technologies = () => (
   <Section id="tech">
@@ -186,6 +184,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
+    <ExternalLinks href='/resume' className="link-to" title="view Resume">view Resume</ExternalLinks>
   </Section>
 );
 
