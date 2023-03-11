@@ -72,24 +72,20 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Parmeshwar - a passionate backend developer. Lorem ipsum dolor sit
-        amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est
-        harum impedit laborum, nobis odit porro quibusdam saepe suscipit!
-        Accusamus adipisci aliquam amet consectetur dolore doloremque eaque
-        earum eius, est eveniet fuga, id itaque laudantium natus nesciunt nihil
-        obcaecati omnis possimus quibusdam repellat sed velit vero. A,
-        accusamus, adipisci aliquam dolorem eveniet excepturi fuga incidunt
-        libero minima nisi obcaecati quae saepe! Consectetur maiores natus
-        reiciendis rem!
+        Hi there! My name is Parmeshwar, and I'm a passionate backend developer
+        with 1.5 years of experience in creating robust and efficient web
+        applications. I specialize in Javascript, and I love working on complex
+        backend architectures that help businesses grow and thrive.
       </SectionText>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus
-        amet, beatae commodi consequuntur corporis cumque dicta doloremque eaque
-        earum enim ex excepturi exercitationem fuga inventore ipsam, iste itaque
-        laboriosam libero maiores, maxime nisi nulla odio odit omnis possimus
-        quaerat quam quasi rerum sequi tempore temporibus vitae voluptates.
-        Autem doloribus, veritatis! Atque aut inventore natus nulla quaerat
-        suscipit tempore voluptates?
+        In my free time, I love to go for treaks and spend some time with nature, As a
+        backend developer, I'm dedicated to staying up-to-date with the latest
+        technologies and trends in the industry. I'm always looking for new
+        challenges and opportunities to expand my skills and knowledge, and I'm
+        committed to delivering high-quality work that exceeds my clients'
+        expectations. If you're interested in working with me or have any
+        questions, please don't hesitate to reach out. I look forward to hearing
+        from you!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
