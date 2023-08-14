@@ -12,7 +12,7 @@ const Header = (data) => {
       <Div1>
         <Link href="/">
           <a style={{ display: "flex", alignItems: "center" }}>
-            @parmeshwar4321
+            @promiser
           </a>
         </Link>
       </Div1>
@@ -31,6 +31,11 @@ const Header = (data) => {
         <li>
           <Link href={route === "/all-projects" ? "/#tech" : "#tech"}>
             <NavLink>Technologies</NavLink>
+          </Link>
+        </li>
+            <li>
+            <Link href={route === "/all-projects" ? "https://blog.parmeshwar.me/" : "https://blog.parmeshwar.me/"} passHref>
+            <NavLink>My Blogs</NavLink>
           </Link>
         </li>
       </Div2>
