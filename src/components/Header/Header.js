@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import SocialMedia from "../SocialMedia/SocialMedia.component";
-import { HeaderContainer, Div1, Div2, NavLink } from "./HeaderStyles";
+import { HeaderContainer, Div1, Div2, NavLink ,Burger} from "./HeaderStyles";
 import { Button } from "../Cards/CardStyles";
+import {CgMenu,CgCross} from "react-icons/cg"
+import {RxCross1} from "react-icons/rx"
 
 const Header = (data) => {
   const { route } = useRouter();
+  const [burger, setBurger]=useState(false)
+  const handleBurger=()=>{
+    setBurger(!burger)
+  }
   return (
     <HeaderContainer sticky>
       <Div1>
@@ -16,6 +22,7 @@ const Header = (data) => {
           </a>
         </Link>
       </Div1>
+      <Burger>  <button onClick={handleBurger}>  {burger? <RxCross1/>: <CgMenu/> } </button> </Burger>
 
       <Div2>
         <li>

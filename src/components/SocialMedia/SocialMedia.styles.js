@@ -6,8 +6,8 @@ export const SocialContainer = styled.div`
   align-items: center;
   gap: 1rem;
   
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-column: ${props => props.inFooter ? null : '1 / -1'};
+  @media ${(props) => props.theme.breakpoints.md} {
+    display:none;
   }
   
   @media ${props => props.theme.breakpoints.md}{

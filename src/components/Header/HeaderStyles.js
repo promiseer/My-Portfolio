@@ -10,8 +10,8 @@ export const HeaderContainer = styled.header`
   background-color: ${props => props.theme.colors.bodyBgColor};
   z-index: 21;
 
-   @media ${(props) => props.theme.breakpoints.sm} {
-     grid-template-columns: auto 1fr;
+   @media ${(props) => props.theme.breakpoints.md} {
+     grid-template-columns: auto 1fr;    
    }
 `;
 
@@ -37,8 +37,8 @@ export const Div2 = styled.ul`
   align-items: center;
   gap: 2rem;
   
-  @media ${(props) => props.theme.breakpoints.sm} {
-    justify-content: flex-end;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
   }
 `;
 
@@ -59,3 +59,13 @@ export const NavLink = styled.a`
     font-size: 1.5rem;
   }
 `;
+
+export const Burger = styled.div`
+display: none;
+
+@media ${(props) => props.theme.breakpoints.md} {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+`
