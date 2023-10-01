@@ -6,7 +6,7 @@ export const SocialContainer = styled.div`
   align-items: center;
   gap: 1rem;
   
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.md } {
     display:none;
   }
   
