@@ -6,6 +6,7 @@ import { HeaderContainer, Div1, Div2, NavLink, Burger, MenuItem } from "./Header
 import { RxCross1 } from "react-icons/rx"
 import { SlMenu } from "react-icons/sl"
 import { MdLightMode, MdDarkMode } from "react-icons/md"
+import  { useDarkMode } from "next-dark-mode";
 
 const Header = (data) => {
   const { route } = useRouter();
@@ -13,6 +14,10 @@ const Header = (data) => {
   const handleBurger = () => {
     setBurger(!burger)
   }
+  const { switchToDarkMode, isDarkMode } = useDarkMode();
+  const handleDarkModeToggle = () => {
+    switchToLightMode(!isDarkMode);
+  };
   return (
     <HeaderContainer sticky>
       <Div1>
@@ -70,14 +75,17 @@ const Header = (data) => {
           </Link>
         </li>
       </Div2>
+      <span>
 
-      {
-        isDarkMode ?
-          <MdLightMode onClick={handleDarkModeToggle} size="2.5rem" /> :
-          <MdDarkMode onClick={handleDarkModeToggle} size="2.5rem" />
+{
+  isDarkMode ?
+    <MdLightMode onClick={handleDarkModeToggle} size="2.5rem" /> :
+    <MdDarkMode onClick={handleDarkModeToggle} size="2.5rem" />
 
-      }
-
+}
+</span>
+   
+      {/* <SocialMedia /> */}
     </HeaderContainer>
   );
 };
