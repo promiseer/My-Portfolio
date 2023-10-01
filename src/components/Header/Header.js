@@ -74,18 +74,8 @@ const Header = (data) => {
             <NavLink>My Blogs</NavLink>
           </Link>
         </li>
-      </Div2>
-      <span>
-
-{
-  isDarkMode ?
-    <MdLightMode onClick={handleDarkModeToggle} size="2.5rem" /> :
-    <MdDarkMode onClick={handleDarkModeToggle} size="2.5rem" />
-
-}
-</span>
-   
-      {/* <SocialMedia /> */}
+      </Div2> 
+      <SocialMedia />
     </HeaderContainer>
   );
 };
