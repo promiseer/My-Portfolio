@@ -8,10 +8,11 @@ export const HeaderContainer = styled.header`
   position: ${props => props.sticky ? "sticky" : null };
   top: ${props => props.sticky ? 0 : null };
   background-color: ${props => props.theme.colors.bodyBgColor};
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
   z-index: 21;
 
-   @media ${(props) => props.theme.breakpoints.sm} {
-     grid-template-columns: auto 1fr;
+   @media ${(props) => props.theme.breakpoints.md} {
+     grid-template-columns: auto 1fr;    
    }
 `;
 
@@ -25,7 +26,7 @@ export const Div1 = styled.div`
     font-weight: bold;
   
     @media ${(props) => props.theme.breakpoints.sm} {
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
 `;
@@ -37,8 +38,8 @@ export const Div2 = styled.ul`
   align-items: center;
   gap: 2rem;
   
-  @media ${(props) => props.theme.breakpoints.sm} {
-    justify-content: flex-end;
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
   }
 `;
 
@@ -59,3 +60,23 @@ export const NavLink = styled.a`
     font-size: 1.5rem;
   }
 `;
+
+export const MenuItem = styled.div`
+display: none;
+@media ${(props) => props.theme.breakpoints.md} {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+`
+export const Burger = styled.div`
+display: none;
+
+@media ${(props) => props.theme.breakpoints.md} {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+`
