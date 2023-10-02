@@ -88,7 +88,7 @@ const Timeline = () => {
         from you!
       </SectionText>
       <SectionDivider divider />
-      <SectionTitle>Experiance</SectionTitle>
+      <SectionTitle>Experience</SectionTitle>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

@@ -10,7 +10,7 @@ export default function SocialMedia({ inFooter }) {
   return (
     <SocialContainer inFooter={inFooter}>
       <SocialIcons
-        href="https://twitter.com/parmeshwar4321"
+        href="https://twitter.com/promiseeer"
         title="lets connect on twitter"
         target="_blank"
         rel="noopener noreferrer"
@@ -18,7 +18,7 @@ export default function SocialMedia({ inFooter }) {
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://github.com/parmeshwar4321"
+        href="https://github.com/promiseer"
         title="Visit my github profile"
         target="_blank"
         rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export default function SocialMedia({ inFooter }) {
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/parmeshwar4321"
+        href="https://www.linkedin.com/in/promiser"
         title="Contact me on LinkedIn"
         target="_blank"
         rel="noopener noreferrer"
