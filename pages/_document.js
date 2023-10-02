@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
           <meta
             name="description"
-            content="Hi there! My name is Parmeshwar, and I'm a passionate backend developer experience in creating robust and efficient web applications. I specialize in Javascript, and I love working on complex backend architectures that help businesses grow and thrive"
+            content="Hello! I'm Parmeshwar, a skilled backend developer with expertise in JavaScript. I excel in crafting robust web app architectures for business growth."
           />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="author" content="Parmeshwar Rathod" />
@@ -96,7 +96,7 @@ export default class MyDocument extends Document {
           />
           <link rel="icon" type="image/png" href={"/favicon.png"} />
           <link rel="canonical" href="https://www.parmeshwar.me/#about" />
-          <link rel="alternate" hreflang="en" href ="http://www.parmeshwar.me/" />
+          <link rel="alternate" hreflang="en" href ="http://www.parmeshwar.me/#about" />
 
         </Head>
 
