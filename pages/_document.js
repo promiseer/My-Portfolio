@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
           <meta name="keywords" content="portfolio, Backend/FullStack Developer, web development, Node JS Developer , Schbang, Backend Developer" />
           <meta property="og:title" content="Parmeshwar Rathod's Portfolio - Backend/Fullstack Developer"/>
           <meta property="og:description" content="Hi there! My name is Parmeshwar, and I'm a passionate backend developer experience in creating robust and efficient web applications. I specialize in Javascript, and I love working on complex backend architectures that help businesses grow and thrive"/>
-          <meta property="og:image" content="https://scontent-bom1-1.cdninstagram.com/v/t51.2885-19/308025560_794001192021682_1561889814514861597_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=vwKHtzr727gAX_ABpUN&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCWC4i0EaD7V34aiR81E4x4u0LP-xT78Ma201c43rkAGw&oe=651F75E9&_nc_sid=8b3546"/>
+          <meta property="og:image" content="https://cdn.buymeacoffee.com/uploads/profile_pictures/2023/09/KNADODeXA0V5GgWb.jpg@300w_0e.webp"/>
           <meta property="og:url" content="https://www.parmeshwar.me"/>
           <meta property="og:type" content="website"/>
 
@@ -49,7 +49,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:site" content="@promiseeer"/>
           <meta name="twitter:title" content="Parmeshwar Rathod's Portfolio - Backend/Fullstack Developer"/>
           <meta name="twitter:description" content="Explore the web development and design work of John Smith, a passionate and experienced web developer. View projects, skills, and achievements in one place."/>
-          <meta name="twitter:image" content="https://ca.slack-edge.com/T02JA1CCQBH-U041B3AFJ72-0a738499f624-512"/>
+          <meta name="twitter:image" content="https://cdn.buymeacoffee.com/uploads/profile_pictures/2023/09/KNADODeXA0V5GgWb.jpg@300w_0e.webp"/>
          
           <script
             key="structured-1"
