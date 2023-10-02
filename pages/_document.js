@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="https://scontent-bom1-1.cdninstagram.com/v/t51.2885-19/308025560_794001192021682_1561889814514861597_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-bom1-1.cdninstagram.com&_nc_cat=110&_nc_ohc=vwKHtzr727gAX_ABpUN&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCWC4i0EaD7V34aiR81E4x4u0LP-xT78Ma201c43rkAGw&oe=651F75E9&_nc_sid=8b3546"/>
           <meta name="twitter:site" content="@promiseeer"/>
           <meta name="twitter:title" content="Parmeshwar Rathod's Portfolio - Backend/Fullstack Developer"/>
-          <meta name="twitter:description" content="Explore the web development and design work of John Smith, a passionate and experienced web developer. View projects, skills, and achievements in one place."/>
+          <meta name="twitter:description" content="Explore the web development and design work of Parmeshwar Rathod, a passionate and experienced web developer. View projects, skills, and achievements in one place."/>
           <meta name="twitter:image" content="https://cdn.buymeacoffee.com/uploads/profile_pictures/2023/09/KNADODeXA0V5GgWb.jpg@300w_0e.webp"/>
           <script
               type="text/javascript"
