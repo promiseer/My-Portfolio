@@ -184,7 +184,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    <ExternalLinks href='/resume' className="link-to" title="view Resume">view Resume</ExternalLinks>
+    <ExternalLinks href='/resume.pdf' className="link-to" title="view Resume">view Resume</ExternalLinks>
   </Section>
 );
 
