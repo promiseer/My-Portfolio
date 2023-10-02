@@ -4,3 +4,6 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
+
+Sitemap: https://parmeshwar.me/sitemap.xml
+Sitemap: https://www.parmeshwar.me/sitemap.xml
