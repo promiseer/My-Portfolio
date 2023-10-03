@@ -31,22 +31,22 @@ const Header = (data) => {
       {
         burger ? <MenuItem >
           <li>
-            <Link href={route === "/all-projects" ? "/#about" : "#about"} >
+            <Link href={route === "/all-projects" ? "/#about" : "#about"}  title="About">
               <NavLink>About</NavLink>
             </Link>
           </li>
           <li>
-            <Link href="#projects">
+            <Link href="#projects" title="Projects">
               <NavLink>Projects</NavLink>
             </Link>
           </li>
           <li>
-            <Link href={route === "/all-projects" ? "/#tech" : "#tech"}>
+            <Link href={route === "/all-projects" ? "/#tech" : "#tech"} title="Technologies">
               <NavLink>Technologies</NavLink>
             </Link>
           </li>
           <li>
-            <Link href={route === "/all-projects" ? "https://blog.parmeshwar.me/" : "https://blog.parmeshwar.me/"} passHref>
+            <Link href={route === "/all-projects" ? "https://blog.parmeshwar.me/" : "https://blog.parmeshwar.me/"} passHref title="My Blogs">
               <NavLink>My Blogs</NavLink>
             </Link>
           </li>
@@ -55,22 +55,22 @@ const Header = (data) => {
 
       <Div2>
         <li>
-          <Link href={route === "/all-projects" ? "/#about" : "#about"}>
+          <Link href={route === "/all-projects" ? "/#about" : "#about"} title="About">
             <NavLink>About</NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#projects">
+          <Link href="#projects" title="Projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
         <li>
-          <Link href={route === "/all-projects" ? "/#tech" : "#tech"}>
+          <Link href={route === "/all-projects" ? "/#tech" : "#tech"} title="Technologies">
             <NavLink>Technologies</NavLink>
           </Link>
         </li>
         <li>
-          <Link href={route === "/all-projects" ? "https://blog.parmeshwar.me/" : "https://blog.parmeshwar.me/"} passHref>
+          <Link href={route === "/all-projects" ? "https://blog.parmeshwar.me/" : "https://blog.parmeshwar.me/"} passHref title="My Blogs">
             <NavLink>My Blogs</NavLink>
           </Link>
         </li>
