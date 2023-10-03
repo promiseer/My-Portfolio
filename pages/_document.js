@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-IN">
         <Head>
-          <title>Parmeshwar's Portfolio: Backend/FullStack Developer</title>
+          <title>Parmeshwar - Backend and Full-Stack Developer Portfolio</title>
           <meta name="robots" content="index, follow" />
           <meta
             name="description"
@@ -90,6 +90,7 @@ export default class MyDocument extends Document {
             defer
             type="text/javascript"
           ></script>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
