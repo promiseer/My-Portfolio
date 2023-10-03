@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from "react-icons/ai";
+import {BsStackOverflow} from "react-icons/bs"
 import { CgMail } from "react-icons/cg";
 
 export default function SocialMedia({ inFooter }) {
@@ -24,6 +25,14 @@ export default function SocialMedia({ inFooter }) {
         rel="noopener noreferrer"
       >
         <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons
+        href="https://stackoverflow.com/users/16529219/parmeshwar-rathod"
+        title="Visit my Stackoverflow profile"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <BsStackOverflow size="3rem" />
       </SocialIcons>
       <SocialIcons
         href="https://www.linkedin.com/in/promiser"

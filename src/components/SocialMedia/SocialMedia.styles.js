@@ -7,7 +7,7 @@ export const SocialContainer = styled.div`
   gap: 1rem;
   
   @media ${(props) => props.theme.breakpoints.md } {
-    display:none;
+    display:${props => props.inFooter ? 'center' : "none"};
   }
   
   @media ${props => props.theme.breakpoints.md}{
