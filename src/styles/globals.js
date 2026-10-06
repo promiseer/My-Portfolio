@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    user-select: none;
   }
   html {
     font-size: 62.5%;
@@ -24,9 +23,7 @@ const GlobalStyles = createGlobalStyle`
 
   }
   h1,h2,h3,h4,h5,h6{
-    background: linear-gradient(121.57deg, ${props => props.theme.colors.headingFirstGradientColor} 18.77%, ${props => props.theme.colors.accent1} 60.15%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: inherit;
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
@@ -42,18 +39,10 @@ const GlobalStyles = createGlobalStyle`
     display: inline-flex;
     align-items: center;
     font-size: 1.6rem;
-    padding: .75rem 1rem;
-    background-image: linear-gradient(270deg,${props => props.theme.colors.background2} 0%, ${props => props.theme.colors.accent1} 100%);
-    color: #fefefe;
+    font-family: inherit;
     border: 0;
     outline: 0;
     cursor: pointer;
-    transition-duration: 0.3s;
-    transition-property: background-image;
-
-    &:hover {
-      background-image: linear-gradient(270deg, ${props => props.theme.colors.accent1} 0%, ${props => props.theme.colors.background2} 100%);
-    }
   }
   .ReactModal__Overlay{
     background-color: ${props => props.theme.colors.bodyBgColor} !important;
