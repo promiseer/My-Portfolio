@@ -67,6 +67,14 @@ export const ExternalLinks = styled.a`
   transition-duration: 0.3s;
   transition-property: background-image;
 
+  &.live-project-link {
+    color: #c0392b;
+  }
+
+  &.live-project-link:hover {
+    color: #9f2d22;
+  }
+
   &:hover {
     background-image: linear-gradient(270deg, ${props => props.theme.colors.accent1} 0%, ${props => props.theme.colors.background2} 100%);
   }

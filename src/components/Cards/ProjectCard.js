@@ -80,7 +80,7 @@ const ProjectCard = ({ item }) => {
       </TitleContent>
       <CardInfo className="card-info">{description}</CardInfo>
       {liveUrl && (
-        <ExternalLinks href={liveUrl} target="_blank" rel="noreferrer">
+        <ExternalLinks className="live-project-link" href={liveUrl} target="_blank" rel="noreferrer">
           View project
         </ExternalLinks>
       )}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import certifications from "./constants/certifications.json";
 import ThemeToggle from "./ThemeToggle";
 
 function NotePage({ id, title, pin, children }) {
@@ -23,17 +24,26 @@ function NotePage({ id, title, pin, children }) {
   );
 }
 
-export function VaultPage() {
+export function CertificationsPage() {
   return (
-    <NotePage id="vault" title="— the vault —" pin="var(--pin1)">
-      <p>References I keep coming back to. Not a reading list — the pages I actually open while building.</p>
+    <NotePage id="certifications" title="— my certifications —" pin="var(--pin1)">
+      <p>Credentials I've earned along the way — courses and exams worth pinning to the desk.</p>
       <ul className="vault-list">
-        <li><strong>Node.js and Express</strong> — how I shape APIs, middleware, and error handling.</li>
-        <li><strong>PostgreSQL</strong> — indexes, transactions, and the queries that get slow in production.</li>
-        <li><strong>Redis</strong> — caching and pub/sub when the primary server should not do all the work.</li>
-        <li><strong>Docker</strong> — images that behave the same on my machine and on the server.</li>
-        <li><strong>Stripe and webhooks</strong> — payments, retries, and making two systems agree.</li>
-        <li><strong>AWS</strong> — deploys, logs, and the checks I want before something pages me.</li>
+        {certifications.map((cert) => (
+          <li key={cert.id}>
+            <strong>{cert.title}</strong>
+            <span className="cert-meta">{cert.issuer}</span>
+            <p className="cert-copy">— {cert.description}</p>
+            <a
+              className="cert-link"
+              href={cert.credentialUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Show credentials →
+            </a>
+          </li>
+        ))}
       </ul>
     </NotePage>
   );

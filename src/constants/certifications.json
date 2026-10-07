@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Generative AI and LLMs: Architecture and Data Preparation",
+    "issuer": "Coursera / self-paced",
+    "description": "Explore generative AI architectures, including RNNs, transformers, VAEs, GANs, and diffusion models, along with LLMs such as GPT, BERT, BART, and T5. Learn text tokenization with NLTK, spaCy, BertTokenizer, and XLNetTokenizer, and build PyTorch data loaders for NLP datasets.",
+    "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/FZ4HI1GWOSCO"
+  },
+  {
+    "id": 2,
+    "title": "Introduction to Back-End Development",
+    "issuer": "Coursera / self-paced",
+    "description": "Learn the fundamentals of back-end development, including server-side applications, APIs, databases, deployment, and shipping consistent builds from development to production.",
+    "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/H38CC8GTG5FG"
+  },
+  {
+    "id": 3,
+    "title": "Create an API using Express, GraphQL, and Mongoose",
+    "issuer": "Coursera / self-paced",
+    "description": "Build Node.js back-end applications with REST APIs, middleware, authentication, database integration, error handling, and scalable development patterns.",
+    "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/S266LUJRSHHD"
+  },
+  {
+    "id": 4,
+    "title": "Software Programming Course",
+    "issuer": "Navgurukul",
+    "description": "Develop practical software programming skills through hands-on learning in programming fundamentals, problem-solving, data structures, application development, and collaborative projects.",
+    "credentialUrl": "https://drive.google.com/file/d/1otuNw3109AF7BoltCcbwDTB6Klst3Olh/view"
+  }
+]

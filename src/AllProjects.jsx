@@ -119,7 +119,7 @@ export default function AllProjects() {
                   ))}
                 </div>
                 {project.liveUrl ? (
-                  <a className="go" href={project.liveUrl} target="_blank" rel="noreferrer">
+                  <a className="go live-url" href={project.liveUrl} target="_blank" rel="noreferrer">
                     Live Url →
                   </a>
                 ) : (

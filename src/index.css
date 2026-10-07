@@ -442,14 +442,14 @@ kbd {
 
 #about .sheet,
 #skills .sheet,
-#vault .sheet,
+#certifications .sheet,
 #prompts .sheet,
 #ritual .sheet {
   transform-origin: 40px 12px;
 }
 
 #about .sheet,
-#vault .sheet {
+#certifications .sheet {
   transform: rotate(-1.8deg);
 }
 
@@ -469,18 +469,53 @@ kbd {
 }
 
 .vault-list li {
-  margin: 0 0 12px;
+  margin: 0 0 28px;
+  padding: 0 0 28px;
+  border-bottom: 1px dashed color-mix(in srgb, var(--muted) 28%, transparent);
   color: var(--muted);
   font-size: 16px;
 }
 
 .vault-list li:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .vault-list strong {
   color: var(--ink);
   font-weight: 600;
+}
+
+.cert-meta {
+  display: block;
+  margin: 2px 0 4px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cert-copy {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.cert-link {
+  display: inline-block;
+  margin-top: 2px;
+  color: #c0392b;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: #c0392b;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.cert-link:hover {
+  color: #9f2d22;
+  text-decoration-color: #9f2d22;
 }
 
 .prompt,
@@ -654,6 +689,16 @@ kbd {
 .piece .go {
   display: inline-block;
   margin-top: 20px;
+}
+
+.piece .live-url {
+  color: #c0392b;
+  text-decoration-color: #c0392b;
+}
+
+.piece .live-url:hover {
+  color: #9f2d22;
+  text-decoration-color: #9f2d22;
 }
 
 .see-shots {
@@ -972,14 +1017,14 @@ footer a {
 
   #about .sheet,
   #skills .sheet,
-  #vault .sheet,
+  #certifications .sheet,
   #prompts .sheet,
   #ritual .sheet {
     transform-origin: center center;
   }
 
   #about .sheet,
-  #vault .sheet { transform: rotate(-0.8deg); }
+  #certifications .sheet { transform: rotate(-0.8deg); }
   #skills .sheet,
   #ritual .sheet { transform: rotate(0.6deg); }
   #prompts .sheet { transform: rotate(0.5deg); }

@@ -29,11 +29,11 @@ const pins = [
     pin: "var(--pin4)",
   },
   {
-    href: "/vault",
-    kicker: "Vault",
-    title: "My Vault",
-    text: "Curated resources — tools, reads, and references worth keeping.",
-    go: "Open the vault →",
+    href: "/certifications",
+    kicker: "Certifications",
+    title: "My Certifications",
+    text: "Credentials I've earned — courses and exams worth keeping on the desk.",
+    go: "Show credentials →",
     pin: "var(--pin1)",
   },
   {

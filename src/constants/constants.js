@@ -82,6 +82,20 @@ export const projects = [
     id: 16,
     order: 97,
     mainType: "Electron Desktop Application",
+    images: [
+      {
+        original: "images/projects/VirtualCameraStudio/preview.jpeg",
+        originalAlt: "Home",
+      },
+      {
+        original: "images/projects/VirtualCameraStudio/dashboard.jpeg",
+        originalAlt: "VirtualCameraStudio homepage",
+      },
+      {
+        original: "images/projects/VirtualCameraStudio/library.jpeg",
+        originalAlt: "Home",
+      }
+    ],
   },
   {
     title: "Captcha Solver Extension",
