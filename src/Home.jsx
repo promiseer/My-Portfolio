@@ -20,10 +20,18 @@ import experience from "./experience";
 import ThemeToggle from "./ThemeToggle";
 
 const pins = [
+    {
+    href: "/projects",
+    kicker: "Projects",
+    title: "My Projects",
+    text: "Things I've shipped — open source and otherwise.",
+    go: "See projects →",
+    pin: "var(--pin4)",
+  },
   {
     href: "/vault",
     kicker: "Vault",
-    title: "Vault",
+    title: "My Vault",
     text: "Curated resources — tools, reads, and references worth keeping.",
     go: "Open the vault →",
     pin: "var(--pin1)",
@@ -31,7 +39,7 @@ const pins = [
   {
     href: "/prompts",
     kicker: "Prompts",
-    title: "Prompts",
+    title: "My Prompts",
     text: "Copy-paste AI prompts organized by use case, tested in real work.",
     go: "Browse prompts →",
     pin: "var(--pin2)",
@@ -39,19 +47,11 @@ const pins = [
   {
     href: "/ritual",
     kicker: "Ritual",
-    title: "Ritual",
+    title: "My Ritual",
     text: "Weekly notes — what I'm building, thinking, and learning in public.",
     go: "Read the ritual →",
     pin: "var(--pin3)",
-  },
-  {
-    href: "/projects",
-    kicker: "Projects",
-    title: "Projects",
-    text: "Things I've shipped — open source and otherwise.",
-    go: "See projects →",
-    pin: "var(--pin4)",
-  },
+  }
 ];
 
 const tools = [
@@ -191,7 +191,7 @@ export default function Home() {
           <div className="card sheet">
             <span className="tape" style={{ top: "-18px", left: "18%", width: "110px", height: "32px", transform: "rotate(-3deg)" }} />
             <p>
-              Hi there! My name is Parmeshwar. I'm a  Senior Full-Stack/Devops Engineer with 5+ years of hands-on experience designing and building scalable web and
+               Senior Full-Stack Ai Engineer with 5+ years of hands-on experience designing and building scalable web and
 mobile applications. Proven expertise in backend development using Python, Node.js, and Go, and growing proficiency in
 frontend technologies like React and Next.js. Skilled in designing RESTful and GraphQL APIs, integrating with modern
 DevOps pipelines (K8s,Docker, CI/CD, AWS), and deploying cloud-native solutions. Experienced in collaborating

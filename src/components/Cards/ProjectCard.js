@@ -11,6 +11,8 @@ import {
   Tag,
   TagList,
   TitleContent,
+  ProjectPlaceholder,
+  ExternalLinks,
 } from "./CardStyles";
 import { BsPlusCircleFill } from "react-icons/bs";
 import ProjectModal from "../Modal/ProjectModal";
@@ -36,8 +38,7 @@ const ProjectCard = ({ item }) => {
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, image, imageWebp, images } =
-    item;
+  const { title, description, tags, image, imageWebp, images, liveUrl } = item;
 
   return (
     <motion.div
@@ -50,10 +51,14 @@ const ProjectCard = ({ item }) => {
       transition={{ type: "tween" }}
     >
       <ImgContainer>
-        <Picture>
-          <source srcSet={imageWebp} type="image/webp" />
-          <PictureImg src={image} alt={title} />
-        </Picture>
+        {image ? (
+          <Picture>
+            {imageWebp && <source srcSet={imageWebp} type="image/webp" />}
+            <PictureImg src={image} alt={title} />
+          </Picture>
+        ) : (
+          <ProjectPlaceholder>{title}</ProjectPlaceholder>
+        )}
 
         <Button
           type="button"
@@ -74,6 +79,11 @@ const ProjectCard = ({ item }) => {
         <Hr />
       </TitleContent>
       <CardInfo className="card-info">{description}</CardInfo>
+      {liveUrl && (
+        <ExternalLinks href={liveUrl} target="_blank" rel="noreferrer">
+          View project
+        </ExternalLinks>
+      )}
       <div className="card-footer">
         <TitleContent style={{ marginTop: "20px" }}>
           <b>Stack</b>

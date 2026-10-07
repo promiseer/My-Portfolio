@@ -1,5 +1,163 @@
 export const projects = [
   {
+    title: "VCam Bypass",
+    description:
+      "A Chrome extension that helps compatible websites recognize virtual cameras by modifying MediaDevices metadata. It is designed for development, testing, and legitimate compatibility use cases without collecting or transmitting camera data.",
+    tags: ["Chrome Extension", "JavaScript", "MediaDevices API", "WebRTC"],
+    id: 15,
+    order: 98,
+    mainType: "Chrome Extension",
+    liveUrl:
+      "https://chromewebstore.google.com/detail/vcam-bypass/fekkbmjpljhijdinboeeapdllpbgboeb",
+    images: [
+      {
+        original: "images/projects/VCamBypass/installs.png",
+        originalAlt: "Installs",
+      },
+      {
+        original: "images/projects/VCamBypass/impression.png",
+        originalAlt: "Users",
+      },
+      {
+        original: "images/projects/VCamBypass/home.png",
+        originalAlt: "VCamBypass homepage",
+      },
+      {
+        original: "images/projects/VCamBypass/users.png",
+        originalAlt: "Home",
+      },
+
+
+    ],
+  },
+  {
+    title: "SmartLeadX",
+    description:
+      "A cold outreach and email marketing platform built to help teams manage campaigns, leads, and follow-ups from one place.",
+    image: "images/projects/SmartLeadX/home.png",
+    images: [
+      {
+        original: "images/projects/SmartLeadX/home.png",
+        originalAlt: "SmartLeadX homepage",
+      },
+
+      {
+        original: "images/projects/SmartLeadX/image.png",
+        originalAlt: "Home",
+      }
+    ],
+    tags: ["Next.js", "NestJS", "TypeScript", "Supabase", "Email Marketing"],
+    id: 13,
+    order: 100,
+    mainType: "Web Application",
+    liveUrl: "https://smartleadx.in",
+  },
+  {
+    title: "NGOCORE",
+    description:
+      "A SaaS platform for NGO management, with tools that help organizations coordinate their operations and teams.",
+    image: "images/projects/NGOCORE/home.png",
+    images: [
+      {
+        original: "images/projects/NGOCORE/home.png",
+        originalAlt: "NGOCORE homepage",
+      },
+      {
+        original: "images/projects/NGOCORE/image.png",
+        originalAlt: "Home",
+      },
+    ],
+    tags: ["Next.js", "NestJS", "TypeScript", "Supabase", "SaaS"],
+    id: 14,
+    order: 99,
+    mainType: "Saas Web Application",
+    liveUrl: "https://ngocore.in",
+  },
+
+  {
+    title: "Virtual Camera Studio",
+    description:
+      "An Electron desktop application for creating virtual camera experiences with React, TypeScript, Vite, Tailwind CSS, native Node.js addons, and AI clients.",
+    tags: ["Electron", "React", "TypeScript", "Vite", "Tailwind CSS", "Fal AI"],
+    id: 16,
+    order: 97,
+    mainType: "Electron Desktop Application",
+  },
+  {
+    title: "Captcha Solver Extension",
+    description:
+      "A Chrome extension that uses Tesseract.js OCR to solve CAPTCHAs on government portal sites under *.gov.in.",
+    tags: ["Chrome Extension", "JavaScript", "Tesseract.js", "OCR"],
+    id: 17,
+    order: 96,
+    mainType: "Chrome Extension",
+    liveUrl:
+      "https://chromewebstore.google.com/detail/captcha-solver-extension/gmagchfoeimhalmlldhopdlikmkbmhfm",
+  
+  images: [
+    {
+      original: "images/projects/CaptchaSolver/home.png",
+      originalAlt: "CaptchaSolver homepage",
+    },
+    {
+      original: "images/projects/CaptchaSolver/users.png",
+      originalAlt: "Users",
+    },
+    {
+      original: "images/projects/CaptchaSolver/installs.png",
+      originalAlt: "Installs",
+    },
+    {
+      original: "images/projects/CaptchaSolver/impressions.png",
+      originalAlt: "Home",
+    },
+  ],
+},
+  {
+    title: "Restaurant App",
+    description:
+      "A full-stack food ordering application with role-based access control, country-based access management, collaborative cart updates, and real-time orders.",
+    image: "images/projects/Restaurant/home.png",
+    images: [
+      {
+        original: "images/projects/Restaurant/home.png",
+        originalAlt: "Restaurant app homepage",
+      },
+      {
+        original: "images/projects/Restaurant/roles.png",
+        originalAlt: "Restaurant app roles",
+      },
+    ],
+    tags: ["React", "Full Stack", "RBAC", "Real-time", "Food Ordering"],
+    id: 18,
+    order: 95,
+    mainType: "react",
+    liveUrl: "https://restaurent-app-vert.vercel.app/",
+  },
+  {
+    title: "TaskCollab",
+    description:
+      "A full-stack task management and collaboration tool built with the T3 stack, including team workflows, projects, tasks, and authentication.",
+    tags: ["Next.js", "TypeScript", "tRPC", "Prisma", "NextAuth.js", "Tailwind CSS"],
+    id: 19,
+    order: 94,
+    mainType: "Web Application",
+    images: [
+      {
+        original: "images/projects/TaskCollab/dashboard.png",
+        originalAlt: "TaskCollab homepage",
+      },
+      {
+        original: "images/projects/TaskCollab/projects.png",
+        originalAlt: "Home",
+      },
+      {
+        original: "images/projects/TaskCollab/task.png",
+        originalAlt: "Home",
+      },
+    ],
+  },
+  {
     title: "Click Colour",
     description:
       "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
@@ -20,76 +178,9 @@ export const projects = [
     tags: ["JavaScript", "CSS", "HTML"],
     id: 1,
     order: 100,
-    mainType: "javascript",
+    mainType: "Web Application",
   },
 
-  {
-    title: "React Todo/Blog",
-    description:
-      "When I have commenced to learn React JS, I built this nice and cool React application. It combines a Todo and blog components as well as contact. The whole stack is pointed below.",
-    image: "images/jpgs/React-todo-and-blog-home-1.jpg",
-    imageWebp: "images/webps/React-todo-and-blog-home-1.webp",
-    images: [
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-home-1",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-1",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-2",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-contact",
-      },
-    ],
-    tags: [
-      "React",
-      "React hooks",
-      "React Hook Form",
-      "React transition group",
-      "React router",
-      "React Modal",
-      "React Query",
-      "Axios",
-      "Reddit API",
-      "localstorage",
-    ],
-    id: 4,
-    order: 94,
-    mainType: "react",
-  },
-  {
-    title: "Project Manager",
-    description:
-      "in this project you can create teams , projects, tasks & assign to some one just like assana and jira",
-    images: [
-
-    ],
-    tags: [
-      "Nodejs",
-      "MongoDb",
-      "Express",
-      "Next",
-      "React Hooks",
-      "Redux",
-    ],
-    id: 7,
-    order: 93,
-    mainType: "react",
-  },
   {
     title: "LNS (Luv Name Service)",
     description:
@@ -128,41 +219,8 @@ export const projects = [
     ],
     id: 9,
     order: 91,
-    mainType: "react",
-  },
-  {
-    title: "Twitter login Page",
-    description:
-      "just created Login page of Twitter practice my frontend Skills after long time",
-    image: "images/projects/Twitter/twitter2.png",
-    imageWebp: "images/projects/Twitter/twitter2.png",
-    images: [
-      {
-        original:
-          "images/projects/Twitter/twitter2.png",
-        loading: "lazy",
-        originalAlt: "DeskTop View",
-      },
-      {
-        original:
-          "images/projects/Twitter/twitter1.png",
-        loading: "lazy",
-        originalAlt: "Mobile View",
-      },
-    ],
-    tags: [
-      "Typescript",
-      "Jotai",
-      "SWR",
-      "Tailwind CSS",
-      "Headless UI",
-      "json server",
-      "React Error Boundary",
-    ],
-    id: 12,
-    order: 88,
-    mainType: "react",
-  },
+    mainType: "Web Application",
+  }
 ];
 
 export const TimeLineData = [

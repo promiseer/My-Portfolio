@@ -22,6 +22,17 @@ export const PictureImg = styled.img`
   aspect-ratio: 3 / 2;
 `
 
+export const ProjectPlaceholder = styled.div`
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+  padding: 2rem;
+  color: ${(props) => props.theme.colors.primary1};
+  background: ${(props) => props.theme.colors.background2};
+  text-align: center;
+  font-size: 1.8rem;
+`;
+
 export const TitleContent = styled.div`
   padding: 0 15px;
   z-index: 20;
